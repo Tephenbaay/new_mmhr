@@ -262,8 +262,8 @@ $summary = array_fill(1, 31, [
             <button type="submit" class="btn1 btn-success">Upload</button>
         </form>
         <button class="btn btn-success no-print" onclick="window.print()">Print Table</button>
-        <form action="census.php" method="GET">
-            <button type="submit" class="btn btn-primary btn-2">View MMHR Census</button>
+        <form action="display_summary.php" method="GET">
+            <button type="submit" class="btn btn-primary btn-2">View MMHR Table</button>
         </form>
         <form action="leading_causes.php" method="GET">
             <button type="submit" class="btn btn-primary btn-3">View Leading Causes</button>

@@ -259,7 +259,7 @@ $summary = array_fill(1, 31, [
                     <button type="submit" class="btn1 btn-success">Upload</button>
                 </form>
                 <button onclick="printTable()" class="btn btn-success">Print Table</button>
-                <form action="mmhr_census.php" method="GET">
+                <form action="census.php" method="GET">
                     <button type="submit" class="btn btn-primary btn-2">View MMHR Census</button>
                 </form>
                 <form action="leading_causes.php" method="GET">
